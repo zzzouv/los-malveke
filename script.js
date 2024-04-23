@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     form.addEventListener("submit", function(event) {
         event.preventDefault(); 
-        alert("Formulario enviado con éxito");
+        alert("Formulario enviado correctamente, ahora por favor cree y envie su carta. le hablaremos pronto");
     });
 
     document.getElementById("crear-carta").addEventListener("click", function() {
